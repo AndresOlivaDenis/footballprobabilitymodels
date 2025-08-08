@@ -1,7 +1,7 @@
-# ⚽ footballprobabilitymodels
+# footballprobabilitymodels
 **footballprobabilitymodels** is a Python library for estimating football match outcome probabilities and expected goal distributions using calibrated machine learning models and bookmaker odds.
 
-## 🔍 What it does
+## What it does
 Given:
 - **1X2 odds** from bookmakers (win/draw/loss)
 - **Over/under 2.5 goals odds**
@@ -9,14 +9,14 @@ Given:
 The model computes:
 
  Expected number of goals per team
-- 🔢 A full **probability matrix** of possible match scorelines (home vs away goals)
-- 📈 **Marginal goal distributions** for each team
-- 📊 **Expected number of goals** per team
+- A full **probability matrix** of possible match scorelines (home vs away goals)
+- **Marginal goal distributions** for each team
+- **Expected number of goals** per team
 
 This allows advanced evaluation of football matches beyond win/draw/loss.
 
 
-# 📁 Repository Structure
+# Repository Structure
 
 ```bash
 footballprobabilitymodels/
@@ -35,7 +35,7 @@ footballprobabilitymodels/
 └── requirements.txt
 ```
 
-# 🚀 Getting Started
+# Getting Started
 
 ### Prerequisites
 - Python 3.10
@@ -46,7 +46,7 @@ footballprobabilitymodels/
 pip install -r requirements.txt
 ```
 
-# 📈 Example
+# Example
 
 ```python
 # Estimate teams goals and match results probabilities from Bookmaker odds
